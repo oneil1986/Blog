@@ -1,0 +1,18 @@
+/* ===================================== 
+   Mobile layout
+======================================== */
+
+.grid-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.right-column {
+  background-color: #e3f6f5;
+}
+
+.card {
+  margin: 10px 0;
+}
