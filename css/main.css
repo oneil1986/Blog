@@ -62,13 +62,39 @@ p {
   width: 20%;
   display: flex;
   flex-direction: row;
-  justify-items: center;
-  align-items: center;
+  justify-content: center;
   margin: auto;
 }
 
 .card .sidebar-nav li {
   padding: 0 10px;
+}
+
+.card form {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+input[type="email"] {
+  margin-right: 5px;
+  background-color: #f2f2f2;
+  border: 1px solid #bdbdbd;
+  color: #5a5854;
+  border-radius: 5px;
+}
+
+input[type="email"]:focus,
+input[type="email"]:hover {
+  background-color: #fff;
+  border: 1px solid #b1e1e4;
+}
+
+input[type="submit"] {
+  color: #272343;
+  background-color: #ffd803;
+  border-bottom: 2px solid #b2b2;
+  border-radius: 5px;
+  text-shadow: 0px 1px 1px #fff;
 }
 
 /* ===================================== 
