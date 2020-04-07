@@ -20,21 +20,17 @@ body {
   font: 1em/1.6 "Roboto", arial, sans-serif;
   margin: 0;
   height: 100vh;
+  background-color: #0f6733;
 }
 
 .main-header {
   text-transform: uppercase;
-  background-color: #fffffe;
-  margin: 30px 0;
+  background: #fffffe url(../images/bg.jpg) no-repeat center;
+  padding: 30px 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #272343;
+h1 {
+  color: #fffffe;
 }
 
 a {
@@ -45,13 +41,11 @@ p {
   color: #2d334a;
 }
 
-.left-column {
-  background-color: #e3f6f5;
-}
-
 .card {
   background-color: #fffffe;
   padding: 20px;
+  width: 95%;
+  margin: 5px auto;
 }
 
 .card img {
@@ -107,6 +101,11 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #2375a4;
   color: #eaf0f3;
+}
+
+.main-footer {
+  background-color: #0a0911;
+  color: #fffffe;
 }
 
 /* ===================================== 

@@ -8,10 +8,6 @@
   grid-template-columns: 1fr;
 }
 
-.right-column {
-  background-color: #e3f6f5;
-}
-
 .card {
   margin: 10px 0;
 }

@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+  .grid-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr) 1fr;
+    grid-template-areas:
+      "header header  header"
+      "left left right"
+      "footer footer footer";
+  }
+
+  .main-header {
+    grid-area: header;
+  }
+
+  .left-column {
+    grid-area: left;
+  }
+
+  .right-column {
+    grid-area: right;
+  }
+
+  .main-footer {
+    grid-area: footer;
+  }
+}
