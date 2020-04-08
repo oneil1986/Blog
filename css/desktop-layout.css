@@ -32,6 +32,11 @@
     flex-direction: column;
   }
 
+  .left-column .card a {
+    margin-top: auto;
+    align-self: flex-start;
+  }
+
   .right-column {
     grid-area: right;
     margin-top: 70px;
