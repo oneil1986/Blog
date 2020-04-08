@@ -19,6 +19,7 @@
 
   .right-column {
     grid-area: right;
+    margin-top: 70px;
   }
 
   .main-footer {

@@ -1,2 +1,43 @@
-@media (min-width: 1024px) {
+@media (min-width: 1154px) {
+  .grid-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr) 1fr;
+    grid-template-areas:
+      "header header  header"
+      "left left right"
+      "footer footer footer";
+  }
+
+  .main-header {
+    grid-area: header;
+  }
+
+  .left-column {
+    grid-area: left;
+    max-width: 1220px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+    grid-gap: 20px;
+    margin: 0 auto;
+  }
+
+  .blog {
+    grid-column: 1 / -1;
+  }
+
+  .left-column .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-column {
+    grid-area: right;
+    margin-top: 70px;
+  }
+
+  .main-footer {
+    grid-area: footer;
+  }
 }
